@@ -7,66 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51AA788429D4A13F00C112E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA788329D4A13F00C112E2 /* AppDelegate.swift */; };
-		51AA788629D4A13F00C112E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA788529D4A13F00C112E2 /* SceneDelegate.swift */; };
-		51AA788829D4A13F00C112E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA788729D4A13F00C112E2 /* ViewController.swift */; };
-		51AA788B29D4A13F00C112E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AA788929D4A13F00C112E2 /* Main.storyboard */; };
-		51AA788D29D4A14000C112E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AA788C29D4A14000C112E2 /* Assets.xcassets */; };
-		51AA789029D4A14000C112E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AA788E29D4A14000C112E2 /* LaunchScreen.storyboard */; };
-		51AA789B29D4A14000C112E2 /* TableViewAssign3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA789A29D4A14000C112E2 /* TableViewAssign3Tests.swift */; };
-		51AA78A529D4A14000C112E2 /* TableViewAssign3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78A429D4A14000C112E2 /* TableViewAssign3UITests.swift */; };
-		51AA78A729D4A14000C112E2 /* TableViewAssign3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78A629D4A14000C112E2 /* TableViewAssign3UITestsLaunchTests.swift */; };
+		51AA78C829D4A5A600C112E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78C729D4A5A600C112E2 /* AppDelegate.swift */; };
+		51AA78CA29D4A5A600C112E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78C929D4A5A600C112E2 /* SceneDelegate.swift */; };
+		51AA78CC29D4A5A600C112E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78CB29D4A5A600C112E2 /* ViewController.swift */; };
+		51AA78CF29D4A5A600C112E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AA78CD29D4A5A600C112E2 /* Main.storyboard */; };
+		51AA78D129D4A5A700C112E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AA78D029D4A5A700C112E2 /* Assets.xcassets */; };
+		51AA78D429D4A5A700C112E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AA78D229D4A5A700C112E2 /* LaunchScreen.storyboard */; };
+		51AA78DF29D4A5A700C112E2 /* TableViewAssign3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78DE29D4A5A700C112E2 /* TableViewAssign3Tests.swift */; };
+		51AA78E929D4A5A700C112E2 /* TableViewAssign3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78E829D4A5A700C112E2 /* TableViewAssign3UITests.swift */; };
+		51AA78EB29D4A5A700C112E2 /* TableViewAssign3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78EA29D4A5A700C112E2 /* TableViewAssign3UITestsLaunchTests.swift */; };
+		51AA78F929D4A62300C112E2 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78F729D4A62300C112E2 /* ImageTableViewCell.swift */; };
+		51AA78FA29D4A62300C112E2 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51AA78F829D4A62300C112E2 /* ImageTableViewCell.xib */; };
+		51AA78FD29D4A63800C112E2 /* SegmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78FB29D4A63800C112E2 /* SegmentTableViewCell.swift */; };
+		51AA78FE29D4A63800C112E2 /* SegmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51AA78FC29D4A63800C112E2 /* SegmentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		51AA789729D4A14000C112E2 /* PBXContainerItemProxy */ = {
+		51AA78DB29D4A5A700C112E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 51AA787829D4A13F00C112E2 /* Project object */;
+			containerPortal = 51AA78BC29D4A5A600C112E2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 51AA787F29D4A13F00C112E2;
+			remoteGlobalIDString = 51AA78C329D4A5A600C112E2;
 			remoteInfo = TableViewAssign3;
 		};
-		51AA78A129D4A14000C112E2 /* PBXContainerItemProxy */ = {
+		51AA78E529D4A5A700C112E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 51AA787829D4A13F00C112E2 /* Project object */;
+			containerPortal = 51AA78BC29D4A5A600C112E2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 51AA787F29D4A13F00C112E2;
+			remoteGlobalIDString = 51AA78C329D4A5A600C112E2;
 			remoteInfo = TableViewAssign3;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		51AA788029D4A13F00C112E2 /* TableViewAssign3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAssign3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		51AA788329D4A13F00C112E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51AA788529D4A13F00C112E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51AA788729D4A13F00C112E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51AA788A29D4A13F00C112E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51AA788C29D4A14000C112E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		51AA788F29D4A14000C112E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		51AA789129D4A14000C112E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51AA789629D4A14000C112E2 /* TableViewAssign3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAssign3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51AA789A29D4A14000C112E2 /* TableViewAssign3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAssign3Tests.swift; sourceTree = "<group>"; };
-		51AA78A029D4A14000C112E2 /* TableViewAssign3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAssign3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51AA78A429D4A14000C112E2 /* TableViewAssign3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAssign3UITests.swift; sourceTree = "<group>"; };
-		51AA78A629D4A14000C112E2 /* TableViewAssign3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAssign3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51AA78C429D4A5A600C112E2 /* TableViewAssign3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAssign3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AA78C729D4A5A600C112E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51AA78C929D4A5A600C112E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51AA78CB29D4A5A600C112E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51AA78CE29D4A5A600C112E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51AA78D029D4A5A700C112E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51AA78D329D4A5A700C112E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51AA78D529D4A5A700C112E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51AA78DA29D4A5A700C112E2 /* TableViewAssign3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAssign3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AA78DE29D4A5A700C112E2 /* TableViewAssign3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAssign3Tests.swift; sourceTree = "<group>"; };
+		51AA78E429D4A5A700C112E2 /* TableViewAssign3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAssign3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AA78E829D4A5A700C112E2 /* TableViewAssign3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAssign3UITests.swift; sourceTree = "<group>"; };
+		51AA78EA29D4A5A700C112E2 /* TableViewAssign3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAssign3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51AA78F729D4A62300C112E2 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		51AA78F829D4A62300C112E2 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		51AA78FB29D4A63800C112E2 /* SegmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTableViewCell.swift; sourceTree = "<group>"; };
+		51AA78FC29D4A63800C112E2 /* SegmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		51AA787D29D4A13F00C112E2 /* Frameworks */ = {
+		51AA78C129D4A5A600C112E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51AA789329D4A14000C112E2 /* Frameworks */ = {
+		51AA78D729D4A5A700C112E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51AA789D29D4A14000C112E2 /* Frameworks */ = {
+		51AA78E129D4A5A700C112E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,53 +84,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		51AA787729D4A13F00C112E2 = {
+		51AA78BB29D4A5A600C112E2 = {
 			isa = PBXGroup;
 			children = (
-				51AA788229D4A13F00C112E2 /* TableViewAssign3 */,
-				51AA789929D4A14000C112E2 /* TableViewAssign3Tests */,
-				51AA78A329D4A14000C112E2 /* TableViewAssign3UITests */,
-				51AA788129D4A13F00C112E2 /* Products */,
+				51AA78C629D4A5A600C112E2 /* TableViewAssign3 */,
+				51AA78DD29D4A5A700C112E2 /* TableViewAssign3Tests */,
+				51AA78E729D4A5A700C112E2 /* TableViewAssign3UITests */,
+				51AA78C529D4A5A600C112E2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		51AA788129D4A13F00C112E2 /* Products */ = {
+		51AA78C529D4A5A600C112E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51AA788029D4A13F00C112E2 /* TableViewAssign3.app */,
-				51AA789629D4A14000C112E2 /* TableViewAssign3Tests.xctest */,
-				51AA78A029D4A14000C112E2 /* TableViewAssign3UITests.xctest */,
+				51AA78C429D4A5A600C112E2 /* TableViewAssign3.app */,
+				51AA78DA29D4A5A700C112E2 /* TableViewAssign3Tests.xctest */,
+				51AA78E429D4A5A700C112E2 /* TableViewAssign3UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		51AA788229D4A13F00C112E2 /* TableViewAssign3 */ = {
+		51AA78C629D4A5A600C112E2 /* TableViewAssign3 */ = {
 			isa = PBXGroup;
 			children = (
-				51AA788329D4A13F00C112E2 /* AppDelegate.swift */,
-				51AA788529D4A13F00C112E2 /* SceneDelegate.swift */,
-				51AA788729D4A13F00C112E2 /* ViewController.swift */,
-				51AA788929D4A13F00C112E2 /* Main.storyboard */,
-				51AA788C29D4A14000C112E2 /* Assets.xcassets */,
-				51AA788E29D4A14000C112E2 /* LaunchScreen.storyboard */,
-				51AA789129D4A14000C112E2 /* Info.plist */,
+				51AA78C729D4A5A600C112E2 /* AppDelegate.swift */,
+				51AA78C929D4A5A600C112E2 /* SceneDelegate.swift */,
+				51AA78CB29D4A5A600C112E2 /* ViewController.swift */,
+				51AA78CD29D4A5A600C112E2 /* Main.storyboard */,
+				51AA78D029D4A5A700C112E2 /* Assets.xcassets */,
+				51AA78D229D4A5A700C112E2 /* LaunchScreen.storyboard */,
+				51AA78D529D4A5A700C112E2 /* Info.plist */,
+				51AA78F729D4A62300C112E2 /* ImageTableViewCell.swift */,
+				51AA78F829D4A62300C112E2 /* ImageTableViewCell.xib */,
+				51AA78FB29D4A63800C112E2 /* SegmentTableViewCell.swift */,
+				51AA78FC29D4A63800C112E2 /* SegmentTableViewCell.xib */,
 			);
 			path = TableViewAssign3;
 			sourceTree = "<group>";
 		};
-		51AA789929D4A14000C112E2 /* TableViewAssign3Tests */ = {
+		51AA78DD29D4A5A700C112E2 /* TableViewAssign3Tests */ = {
 			isa = PBXGroup;
 			children = (
-				51AA789A29D4A14000C112E2 /* TableViewAssign3Tests.swift */,
+				51AA78DE29D4A5A700C112E2 /* TableViewAssign3Tests.swift */,
 			);
 			path = TableViewAssign3Tests;
 			sourceTree = "<group>";
 		};
-		51AA78A329D4A14000C112E2 /* TableViewAssign3UITests */ = {
+		51AA78E729D4A5A700C112E2 /* TableViewAssign3UITests */ = {
 			isa = PBXGroup;
 			children = (
-				51AA78A429D4A14000C112E2 /* TableViewAssign3UITests.swift */,
-				51AA78A629D4A14000C112E2 /* TableViewAssign3UITestsLaunchTests.swift */,
+				51AA78E829D4A5A700C112E2 /* TableViewAssign3UITests.swift */,
+				51AA78EA29D4A5A700C112E2 /* TableViewAssign3UITestsLaunchTests.swift */,
 			);
 			path = TableViewAssign3UITests;
 			sourceTree = "<group>";
@@ -130,13 +142,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		51AA787F29D4A13F00C112E2 /* TableViewAssign3 */ = {
+		51AA78C329D4A5A600C112E2 /* TableViewAssign3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51AA78AA29D4A14000C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3" */;
+			buildConfigurationList = 51AA78EE29D4A5A700C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3" */;
 			buildPhases = (
-				51AA787C29D4A13F00C112E2 /* Sources */,
-				51AA787D29D4A13F00C112E2 /* Frameworks */,
-				51AA787E29D4A13F00C112E2 /* Resources */,
+				51AA78C029D4A5A600C112E2 /* Sources */,
+				51AA78C129D4A5A600C112E2 /* Frameworks */,
+				51AA78C229D4A5A600C112E2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +156,69 @@
 			);
 			name = TableViewAssign3;
 			productName = TableViewAssign3;
-			productReference = 51AA788029D4A13F00C112E2 /* TableViewAssign3.app */;
+			productReference = 51AA78C429D4A5A600C112E2 /* TableViewAssign3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		51AA789529D4A14000C112E2 /* TableViewAssign3Tests */ = {
+		51AA78D929D4A5A700C112E2 /* TableViewAssign3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51AA78AD29D4A14000C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3Tests" */;
+			buildConfigurationList = 51AA78F129D4A5A700C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3Tests" */;
 			buildPhases = (
-				51AA789229D4A14000C112E2 /* Sources */,
-				51AA789329D4A14000C112E2 /* Frameworks */,
-				51AA789429D4A14000C112E2 /* Resources */,
+				51AA78D629D4A5A700C112E2 /* Sources */,
+				51AA78D729D4A5A700C112E2 /* Frameworks */,
+				51AA78D829D4A5A700C112E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				51AA789829D4A14000C112E2 /* PBXTargetDependency */,
+				51AA78DC29D4A5A700C112E2 /* PBXTargetDependency */,
 			);
 			name = TableViewAssign3Tests;
 			productName = TableViewAssign3Tests;
-			productReference = 51AA789629D4A14000C112E2 /* TableViewAssign3Tests.xctest */;
+			productReference = 51AA78DA29D4A5A700C112E2 /* TableViewAssign3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		51AA789F29D4A14000C112E2 /* TableViewAssign3UITests */ = {
+		51AA78E329D4A5A700C112E2 /* TableViewAssign3UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51AA78B029D4A14000C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3UITests" */;
+			buildConfigurationList = 51AA78F429D4A5A700C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3UITests" */;
 			buildPhases = (
-				51AA789C29D4A14000C112E2 /* Sources */,
-				51AA789D29D4A14000C112E2 /* Frameworks */,
-				51AA789E29D4A14000C112E2 /* Resources */,
+				51AA78E029D4A5A700C112E2 /* Sources */,
+				51AA78E129D4A5A700C112E2 /* Frameworks */,
+				51AA78E229D4A5A700C112E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				51AA78A229D4A14000C112E2 /* PBXTargetDependency */,
+				51AA78E629D4A5A700C112E2 /* PBXTargetDependency */,
 			);
 			name = TableViewAssign3UITests;
 			productName = TableViewAssign3UITests;
-			productReference = 51AA78A029D4A14000C112E2 /* TableViewAssign3UITests.xctest */;
+			productReference = 51AA78E429D4A5A700C112E2 /* TableViewAssign3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		51AA787829D4A13F00C112E2 /* Project object */ = {
+		51AA78BC29D4A5A600C112E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					51AA787F29D4A13F00C112E2 = {
+					51AA78C329D4A5A600C112E2 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					51AA789529D4A14000C112E2 = {
+					51AA78D929D4A5A700C112E2 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 51AA787F29D4A13F00C112E2;
+						TestTargetID = 51AA78C329D4A5A600C112E2;
 					};
-					51AA789F29D4A14000C112E2 = {
+					51AA78E329D4A5A700C112E2 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 51AA787F29D4A13F00C112E2;
+						TestTargetID = 51AA78C329D4A5A600C112E2;
 					};
 				};
 			};
-			buildConfigurationList = 51AA787B29D4A13F00C112E2 /* Build configuration list for PBXProject "TableViewAssign3" */;
+			buildConfigurationList = 51AA78BF29D4A5A600C112E2 /* Build configuration list for PBXProject "TableViewAssign3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +226,39 @@
 				en,
 				Base,
 			);
-			mainGroup = 51AA787729D4A13F00C112E2;
-			productRefGroup = 51AA788129D4A13F00C112E2 /* Products */;
+			mainGroup = 51AA78BB29D4A5A600C112E2;
+			productRefGroup = 51AA78C529D4A5A600C112E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51AA787F29D4A13F00C112E2 /* TableViewAssign3 */,
-				51AA789529D4A14000C112E2 /* TableViewAssign3Tests */,
-				51AA789F29D4A14000C112E2 /* TableViewAssign3UITests */,
+				51AA78C329D4A5A600C112E2 /* TableViewAssign3 */,
+				51AA78D929D4A5A700C112E2 /* TableViewAssign3Tests */,
+				51AA78E329D4A5A700C112E2 /* TableViewAssign3UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		51AA787E29D4A13F00C112E2 /* Resources */ = {
+		51AA78C229D4A5A600C112E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AA789029D4A14000C112E2 /* LaunchScreen.storyboard in Resources */,
-				51AA788D29D4A14000C112E2 /* Assets.xcassets in Resources */,
-				51AA788B29D4A13F00C112E2 /* Main.storyboard in Resources */,
+				51AA78D429D4A5A700C112E2 /* LaunchScreen.storyboard in Resources */,
+				51AA78FA29D4A62300C112E2 /* ImageTableViewCell.xib in Resources */,
+				51AA78D129D4A5A700C112E2 /* Assets.xcassets in Resources */,
+				51AA78CF29D4A5A600C112E2 /* Main.storyboard in Resources */,
+				51AA78FE29D4A63800C112E2 /* SegmentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51AA789429D4A14000C112E2 /* Resources */ = {
+		51AA78D829D4A5A700C112E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51AA789E29D4A14000C112E2 /* Resources */ = {
+		51AA78E229D4A5A700C112E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +268,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		51AA787C29D4A13F00C112E2 /* Sources */ = {
+		51AA78C029D4A5A600C112E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AA788829D4A13F00C112E2 /* ViewController.swift in Sources */,
-				51AA788429D4A13F00C112E2 /* AppDelegate.swift in Sources */,
-				51AA788629D4A13F00C112E2 /* SceneDelegate.swift in Sources */,
+				51AA78FD29D4A63800C112E2 /* SegmentTableViewCell.swift in Sources */,
+				51AA78CC29D4A5A600C112E2 /* ViewController.swift in Sources */,
+				51AA78F929D4A62300C112E2 /* ImageTableViewCell.swift in Sources */,
+				51AA78C829D4A5A600C112E2 /* AppDelegate.swift in Sources */,
+				51AA78CA29D4A5A600C112E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51AA789229D4A14000C112E2 /* Sources */ = {
+		51AA78D629D4A5A700C112E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AA789B29D4A14000C112E2 /* TableViewAssign3Tests.swift in Sources */,
+				51AA78DF29D4A5A700C112E2 /* TableViewAssign3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51AA789C29D4A14000C112E2 /* Sources */ = {
+		51AA78E029D4A5A700C112E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AA78A529D4A14000C112E2 /* TableViewAssign3UITests.swift in Sources */,
-				51AA78A729D4A14000C112E2 /* TableViewAssign3UITestsLaunchTests.swift in Sources */,
+				51AA78E929D4A5A700C112E2 /* TableViewAssign3UITests.swift in Sources */,
+				51AA78EB29D4A5A700C112E2 /* TableViewAssign3UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		51AA789829D4A14000C112E2 /* PBXTargetDependency */ = {
+		51AA78DC29D4A5A700C112E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 51AA787F29D4A13F00C112E2 /* TableViewAssign3 */;
-			targetProxy = 51AA789729D4A14000C112E2 /* PBXContainerItemProxy */;
+			target = 51AA78C329D4A5A600C112E2 /* TableViewAssign3 */;
+			targetProxy = 51AA78DB29D4A5A700C112E2 /* PBXContainerItemProxy */;
 		};
-		51AA78A229D4A14000C112E2 /* PBXTargetDependency */ = {
+		51AA78E629D4A5A700C112E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 51AA787F29D4A13F00C112E2 /* TableViewAssign3 */;
-			targetProxy = 51AA78A129D4A14000C112E2 /* PBXContainerItemProxy */;
+			target = 51AA78C329D4A5A600C112E2 /* TableViewAssign3 */;
+			targetProxy = 51AA78E529D4A5A700C112E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		51AA788929D4A13F00C112E2 /* Main.storyboard */ = {
+		51AA78CD29D4A5A600C112E2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				51AA788A29D4A13F00C112E2 /* Base */,
+				51AA78CE29D4A5A600C112E2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		51AA788E29D4A14000C112E2 /* LaunchScreen.storyboard */ = {
+		51AA78D229D4A5A700C112E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				51AA788F29D4A14000C112E2 /* Base */,
+				51AA78D329D4A5A700C112E2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +332,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		51AA78A829D4A14000C112E2 /* Debug */ = {
+		51AA78EC29D4A5A700C112E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +392,7 @@
 			};
 			name = Debug;
 		};
-		51AA78A929D4A14000C112E2 /* Release */ = {
+		51AA78ED29D4A5A700C112E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +446,7 @@
 			};
 			name = Release;
 		};
-		51AA78AB29D4A14000C112E2 /* Debug */ = {
+		51AA78EF29D4A5A700C112E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -457,7 +473,7 @@
 			};
 			name = Debug;
 		};
-		51AA78AC29D4A14000C112E2 /* Release */ = {
+		51AA78F029D4A5A700C112E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -484,7 +500,7 @@
 			};
 			name = Release;
 		};
-		51AA78AE29D4A14000C112E2 /* Debug */ = {
+		51AA78F229D4A5A700C112E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,7 +519,7 @@
 			};
 			name = Debug;
 		};
-		51AA78AF29D4A14000C112E2 /* Release */ = {
+		51AA78F329D4A5A700C112E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -522,7 +538,7 @@
 			};
 			name = Release;
 		};
-		51AA78B129D4A14000C112E2 /* Debug */ = {
+		51AA78F529D4A5A700C112E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,7 +555,7 @@
 			};
 			name = Debug;
 		};
-		51AA78B229D4A14000C112E2 /* Release */ = {
+		51AA78F629D4A5A700C112E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -559,43 +575,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		51AA787B29D4A13F00C112E2 /* Build configuration list for PBXProject "TableViewAssign3" */ = {
+		51AA78BF29D4A5A600C112E2 /* Build configuration list for PBXProject "TableViewAssign3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51AA78A829D4A14000C112E2 /* Debug */,
-				51AA78A929D4A14000C112E2 /* Release */,
+				51AA78EC29D4A5A700C112E2 /* Debug */,
+				51AA78ED29D4A5A700C112E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51AA78AA29D4A14000C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3" */ = {
+		51AA78EE29D4A5A700C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51AA78AB29D4A14000C112E2 /* Debug */,
-				51AA78AC29D4A14000C112E2 /* Release */,
+				51AA78EF29D4A5A700C112E2 /* Debug */,
+				51AA78F029D4A5A700C112E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51AA78AD29D4A14000C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3Tests" */ = {
+		51AA78F129D4A5A700C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51AA78AE29D4A14000C112E2 /* Debug */,
-				51AA78AF29D4A14000C112E2 /* Release */,
+				51AA78F229D4A5A700C112E2 /* Debug */,
+				51AA78F329D4A5A700C112E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51AA78B029D4A14000C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3UITests" */ = {
+		51AA78F429D4A5A700C112E2 /* Build configuration list for PBXNativeTarget "TableViewAssign3UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51AA78B129D4A14000C112E2 /* Debug */,
-				51AA78B229D4A14000C112E2 /* Release */,
+				51AA78F529D4A5A700C112E2 /* Debug */,
+				51AA78F629D4A5A700C112E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 51AA787829D4A13F00C112E2 /* Project object */;
+	rootObject = 51AA78BC29D4A5A600C112E2 /* Project object */;
 }

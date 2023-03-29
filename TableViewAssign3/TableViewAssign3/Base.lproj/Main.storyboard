@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="omX-NM-LhR">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="fjN-XG-ev0">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -24,14 +24,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="omX-NM-LhR" secondAttribute="bottom" id="8ao-ov-hTx"/>
-                            <constraint firstItem="omX-NM-LhR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BYF-B6-bLe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="omX-NM-LhR" secondAttribute="trailing" id="KKB-Gg-ega"/>
-                            <constraint firstItem="omX-NM-LhR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NZN-f2-4Ub"/>
+                            <constraint firstItem="fjN-XG-ev0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DHj-VJ-4Gd"/>
+                            <constraint firstItem="fjN-XG-ev0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="RUI-kl-A8o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fjN-XG-ev0" secondAttribute="bottom" id="nPG-nc-cam"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fjN-XG-ev0" secondAttribute="trailing" id="rTg-TO-PP7"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="myTable" destination="omX-NM-LhR" id="G6D-uk-nVF"/>
+                        <outlet property="myTable" destination="fjN-XG-ev0" id="XgV-hX-5bX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
