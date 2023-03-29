@@ -9,9 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myTable: UITableView!
+    var cellIdentifiers: [String] = ["imageCell", "SegmentCell"]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        myTable.delegate = self
+        myTable.dataSource = self
+        
     }
 
 
