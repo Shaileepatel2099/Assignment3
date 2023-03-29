@@ -10,13 +10,30 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var myTable: UITableView!
+    var cellIdentifiers: [String] = ["imageCell", "segmentCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
         myTable.delegate = self
         myTable.dataSource = self
-        // Do any additional setup after loading the view.
+        
+        
+    // For Imagecell
+        let imageCell = UINib(nibName: "ImageTableViewCell", bundle: nil)
+    
+        // For Segment
+        let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle: nil)
+        myTable.register(segmentCell, forCellReuseIdentifier: "segmentCell")
     }
 
+}
 
+extension ViewController: UITableViewDelegate, UITableViewDataSource
+{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cellIdentifiers.count
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+         print ("Selected")
+    }
 }
 
