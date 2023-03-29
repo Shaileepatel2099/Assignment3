@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         
     // For Imagecell
         let imageCell = UINib(nibName: "ImageTableViewCell", bundle: nil)
+        myTable.register(imageCell, forCellReuseIdentifier: "imageCell")
     
         // For Segment
         let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle: nil)
