@@ -24,6 +24,9 @@ class ViewController: UIViewController {
         // For Segment
         let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle: nil)
         myTable.register(segmentCell, forCellReuseIdentifier: "segmentCell")
+        
+        let progressCell =  UINib(nibName: "ProgressTableViewCell", bundle: nil)
+        myTable.register(progressCell, forCellReuseIdentifier: "progressCell")
     }
 
 }
