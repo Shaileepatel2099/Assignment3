@@ -10,13 +10,15 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var myTable: UITableView!
-    var cellIdentifiers: [String] = ["imageCell", "segmentCell", "progressCell", "stepperCell","sliderCell", "switchCell", "textfieldCell"]
+    var cellIdentifiers: [String] = ["courseCell","imageCell", "segmentCell", "progressCell", "stepperCell","sliderCell", "switchCell", "textfieldCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
         myTable.delegate = self
         myTable.dataSource = self
         
-        
+        let courseCell = UINib(nibName: "CourseTableViewCell", bundle: nil)
+        myTable.register(courseCell, forCellReuseIdentifier: "courseCell")
+    
     // For Imagecell
         let imageCell = UINib(nibName: "ImageTableViewCell", bundle: nil)
         myTable.register(imageCell, forCellReuseIdentifier: "imageCell")
