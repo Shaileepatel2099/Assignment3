@@ -9,24 +9,24 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SliderTableViewCell" customModule="TableViewAssign3" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="StepperTableViewCell" customModule="TableViewAssign3" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgB-LR-faC">
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="w5q-DL-hTj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jko-15-zwF">
-                                <rect key="frame" x="-2" y="0.0" width="282.66666666666669" height="45"/>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="LV2-Bf-ZQc">
+                                <rect key="frame" x="0.0" y="6" width="150" height="32"/>
                                 <connections>
-                                    <action selector="sliderfunction:" destination="KGk-i7-Jjw" eventType="valueChanged" id="bDw-A1-MWc"/>
+                                    <action selector="stepperControl:" destination="KGk-i7-Jjw" eventType="valueChanged" id="tUz-m2-Fcp"/>
                                 </connections>
-                            </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EN-yf-E70">
-                                <rect key="frame" x="278.66666666666669" y="0.0" width="41.333333333333314" height="44"/>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gg6-J6-IaE">
+                                <rect key="frame" x="170" y="11.999999999999998" width="150" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,18 +35,17 @@
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="qgB-LR-faC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="65J-Dl-efX"/>
-                    <constraint firstAttribute="trailing" secondItem="qgB-LR-faC" secondAttribute="trailing" id="986-cC-qoy"/>
-                    <constraint firstItem="qgB-LR-faC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jQ2-5t-F7E"/>
-                    <constraint firstAttribute="bottom" secondItem="qgB-LR-faC" secondAttribute="bottom" id="r4n-XK-n7W"/>
+                    <constraint firstAttribute="bottom" secondItem="w5q-DL-hTj" secondAttribute="bottom" id="7Gv-Vy-Q5K"/>
+                    <constraint firstAttribute="trailing" secondItem="w5q-DL-hTj" secondAttribute="trailing" id="Bia-US-0vW"/>
+                    <constraint firstItem="w5q-DL-hTj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UDx-B8-VUd"/>
+                    <constraint firstItem="w5q-DL-hTj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="UNX-CJ-62t"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="myslider" destination="Jko-15-zwF" id="QzE-KO-j4I"/>
-                <outlet property="slidervalue" destination="2EN-yf-E70" id="6ZA-Yo-gle"/>
+                <outlet property="stepperValue" destination="Gg6-J6-IaE" id="iFT-gL-klO"/>
             </connections>
-            <point key="canvasLocation" x="124" y="-12"/>
+            <point key="canvasLocation" x="108" y="-11"/>
         </tableViewCell>
     </objects>
 </document>

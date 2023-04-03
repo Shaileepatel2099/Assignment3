@@ -26,8 +26,7 @@
                                     <segment title="Second"/>
                                 </segments>
                                 <connections>
-                                    <action selector="segmentChanged:" destination="KGk-i7-Jjw" eventType="valueChanged" id="kuk-Ne-8Mk"/>
-                                    <action selector="segmentchange:" destination="KGk-i7-Jjw" eventType="valueChanged" id="7Tf-MQ-S2e"/>
+                                    <action selector="segmentchange:" destination="KGk-i7-Jjw" eventType="valueChanged" id="DaO-Vf-Og3"/>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdD-uk-O4g">
@@ -48,9 +47,8 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="myLabel" destination="tdD-uk-O4g" id="dkf-7B-3tX"/>
-                <outlet property="mySegment" destination="2Jb-Bw-PuV" id="4K7-VV-eea"/>
-                <outlet property="segmentResult" destination="tdD-uk-O4g" id="dqd-TW-vbe"/>
+                <outlet property="segmentControl" destination="2Jb-Bw-PuV" id="7XX-Zf-RjS"/>
+                <outlet property="segmentResult" destination="tdD-uk-O4g" id="3qn-vl-Bwv"/>
             </connections>
             <point key="canvasLocation" x="113" y="-11"/>
         </tableViewCell>

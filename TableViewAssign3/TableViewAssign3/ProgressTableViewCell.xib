@@ -40,9 +40,8 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="myProgress" destination="oH7-go-eFR" id="k5L-Kb-XQc"/>
-                <outlet property="progressValue" destination="oH7-go-eFR" id="xlE-T9-jy8"/>
-                <outlet property="progressvalue" destination="oH7-go-eFR" id="OZ5-bg-XDj"/>
+                <outlet property="myprogress" destination="Xxn-Rq-sHW" id="G8U-Lz-Pof"/>
+                <outlet property="progressLabel" destination="oH7-go-eFR" id="uLZ-mT-hEm"/>
             </connections>
             <point key="canvasLocation" x="131" y="-12"/>
         </tableViewCell>

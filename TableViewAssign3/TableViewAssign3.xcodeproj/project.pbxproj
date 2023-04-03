@@ -11,6 +11,12 @@
 		5179327129DB27C000436953 /* ProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5179326F29DB27C000436953 /* ProgressTableViewCell.xib */; };
 		5179327429DB2DCE00436953 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179327229DB2DCE00436953 /* SliderTableViewCell.swift */; };
 		5179327529DB2DCE00436953 /* SliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5179327329DB2DCE00436953 /* SliderTableViewCell.xib */; };
+		5179327C29DB362F00436953 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179327A29DB362F00436953 /* SwitchTableViewCell.swift */; };
+		5179327D29DB362F00436953 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5179327B29DB362F00436953 /* SwitchTableViewCell.xib */; };
+		5179328029DB3A3400436953 /* StepperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179327E29DB3A3400436953 /* StepperTableViewCell.swift */; };
+		5179328129DB3A3400436953 /* StepperTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5179327F29DB3A3400436953 /* StepperTableViewCell.xib */; };
+		5179328429DB3E2000436953 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179328229DB3E2000436953 /* TextFieldTableViewCell.swift */; };
+		5179328529DB3E2000436953 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5179328329DB3E2000436953 /* TextFieldTableViewCell.xib */; };
 		51AA78C829D4A5A600C112E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78C729D4A5A600C112E2 /* AppDelegate.swift */; };
 		51AA78CA29D4A5A600C112E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78C929D4A5A600C112E2 /* SceneDelegate.swift */; };
 		51AA78CC29D4A5A600C112E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA78CB29D4A5A600C112E2 /* ViewController.swift */; };
@@ -48,6 +54,12 @@
 		5179326F29DB27C000436953 /* ProgressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressTableViewCell.xib; sourceTree = "<group>"; };
 		5179327229DB2DCE00436953 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
 		5179327329DB2DCE00436953 /* SliderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderTableViewCell.xib; sourceTree = "<group>"; };
+		5179327A29DB362F00436953 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		5179327B29DB362F00436953 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+		5179327E29DB3A3400436953 /* StepperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperTableViewCell.swift; sourceTree = "<group>"; };
+		5179327F29DB3A3400436953 /* StepperTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepperTableViewCell.xib; sourceTree = "<group>"; };
+		5179328229DB3E2000436953 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		5179328329DB3E2000436953 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 		51AA78C429D4A5A600C112E2 /* TableViewAssign3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAssign3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AA78C729D4A5A600C112E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51AA78C929D4A5A600C112E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +142,12 @@
 				5179326F29DB27C000436953 /* ProgressTableViewCell.xib */,
 				5179327229DB2DCE00436953 /* SliderTableViewCell.swift */,
 				5179327329DB2DCE00436953 /* SliderTableViewCell.xib */,
+				5179327A29DB362F00436953 /* SwitchTableViewCell.swift */,
+				5179327B29DB362F00436953 /* SwitchTableViewCell.xib */,
+				5179327E29DB3A3400436953 /* StepperTableViewCell.swift */,
+				5179327F29DB3A3400436953 /* StepperTableViewCell.xib */,
+				5179328229DB3E2000436953 /* TextFieldTableViewCell.swift */,
+				5179328329DB3E2000436953 /* TextFieldTableViewCell.xib */,
 			);
 			path = TableViewAssign3;
 			sourceTree = "<group>";
@@ -256,11 +274,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5179327129DB27C000436953 /* ProgressTableViewCell.xib in Resources */,
+				5179328129DB3A3400436953 /* StepperTableViewCell.xib in Resources */,
 				51AA78D429D4A5A700C112E2 /* LaunchScreen.storyboard in Resources */,
 				51AA78FA29D4A62300C112E2 /* ImageTableViewCell.xib in Resources */,
 				51AA78D129D4A5A700C112E2 /* Assets.xcassets in Resources */,
 				51AA78CF29D4A5A600C112E2 /* Main.storyboard in Resources */,
 				51AA78FE29D4A63800C112E2 /* SegmentTableViewCell.xib in Resources */,
+				5179328529DB3E2000436953 /* TextFieldTableViewCell.xib in Resources */,
+				5179327D29DB362F00436953 /* SwitchTableViewCell.xib in Resources */,
 				5179327529DB2DCE00436953 /* SliderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +311,12 @@
 				51AA78CC29D4A5A600C112E2 /* ViewController.swift in Sources */,
 				5179327029DB27C000436953 /* ProgressTableViewCell.swift in Sources */,
 				51AA78F929D4A62300C112E2 /* ImageTableViewCell.swift in Sources */,
+				5179327C29DB362F00436953 /* SwitchTableViewCell.swift in Sources */,
 				5179327429DB2DCE00436953 /* SliderTableViewCell.swift in Sources */,
 				51AA78C829D4A5A600C112E2 /* AppDelegate.swift in Sources */,
+				5179328029DB3A3400436953 /* StepperTableViewCell.swift in Sources */,
 				51AA78CA29D4A5A600C112E2 /* SceneDelegate.swift in Sources */,
+				5179328429DB3E2000436953 /* TextFieldTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
